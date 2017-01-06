@@ -1,7 +1,7 @@
 
 library(e1071)
 
-setwd("D:\\Project\\parag Personal\\aegis\\R\\Advance_Ml_Assignment")
+setwd("")
 car_data = read.csv("car.csv", header=FALSE)
 summary(car_data)
 str(car_data)
